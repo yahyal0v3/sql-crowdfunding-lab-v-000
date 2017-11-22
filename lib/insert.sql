@@ -1,4 +1,4 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES 
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES
 ("Instyler", "Beauty", 1000, "01/06/2017", "05/07/2018"),
 ("Say Yes", "Art", 35000, "03/18/2017", "03/20/2018"),
 ("Backpacker", "Fashion", 5500, "11/05/2017", "12/07/2018"),
@@ -10,26 +10,27 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Spolia Tarot", "Games", 2300, "07/18/2017", "07/25/2018"),
 ("Slave Rebellion", "Film", 6900, "08/25/2017", "09/29/2018");
 
-INSERT INTO users (name, age) VALUES ("Eric", 20);
-INSERT INTO users (name, age) VALUES ("Danny", 32);
-INSERT INTO users (name, age) VALUES ("Emily", 25);
-INSERT INTO users (name, age) VALUES ("Amy", 35);
-INSERT INTO users (name, age) VALUES ("Jessica", 40);
-INSERT INTO users (name, age) VALUES ("Andy", 33);
-INSERT INTO users (name, age) VALUES ("Erica", 21);
-INSERT INTO users (name, age) VALUES ("Liyla", 55);
-INSERT INTO users (name, age) VALUES ("James", 16);
-INSERT INTO users (name, age) VALUES ("Adam", 25);
-INSERT INTO users (name, age) VALUES ("Sheral", 17);
-INSERT INTO users (name, age) VALUES ("Daniela", 44);
-INSERT INTO users (name, age) VALUES ("James", 47);
-INSERT INTO users (name, age) VALUES ("Shelly", 36);
-INSERT INTO users (name, age) VALUES ("Kaylie", 22);
-INSERT INTO users (name, age) VALUES ("Kayla", 24);
-INSERT INTO users (name, age) VALUES ("Justin", 27);
-INSERT INTO users (name, age) VALUES ("Jada", 58);
-INSERT INTO users (name, age) VALUES ("Grace", 70);
-INSERT INTO users (name, age) VALUES ("Antonia", 30);
+INSERT INTO users (name, age) VALUES 
+("Eric", 20),
+("Danny", 32),
+("Emily", 25),
+("Amy", 35),
+("Jessica", 40),
+("Andy", 33),
+("Erica", 21),
+("Liyla", 55),
+("James", 16),
+("Adam", 25),
+("Sheral", 17),
+("Daniela", 44),
+("James", 47),
+("Shelly", 36),
+("Kaylie", 22),
+("Kayla", 24),
+("Justin", 27),
+("Jada", 58),
+("Grace", 70),
+("Antonia", 30);
 
 INSERT INTO pledges (user_id, project_id) VALUES (1, 10);
 INSERT INTO pledges (user_id, project_id) VALUES (2, 9);
