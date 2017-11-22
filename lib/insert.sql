@@ -10,7 +10,7 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Spolia Tarot", "Games", 2300, "07/18/2017", "07/25/2018"),
 ("Slave Rebellion", "Film", 6900, "08/25/2017", "09/29/2018");
 
-INSERT INTO users (name, age) VALUES 
+INSERT INTO users (name, age) VALUES
 ("Eric", 20),
 ("Danny", 32),
 ("Emily", 25),
@@ -32,33 +32,34 @@ INSERT INTO users (name, age) VALUES
 ("Grace", 70),
 ("Antonia", 30);
 
-INSERT INTO pledges (user_id, project_id) VALUES (1, 10);
-INSERT INTO pledges (user_id, project_id) VALUES (2, 9);
-INSERT INTO pledges (user_id, project_id) VALUES (3, 9);
-INSERT INTO pledges (user_id, project_id) VALUES (4, 9);
-INSERT INTO pledges (user_id, project_id) VALUES (5, 8);
-INSERT INTO pledges (user_id, project_id) VALUES (6, 7);
-INSERT INTO pledges (user_id, project_id) VALUES (6, 7);
-INSERT INTO pledges (user_id, project_id) VALUES (7, 8);
-INSERT INTO pledges (user_id, project_id) VALUES (8, 10);
-INSERT INTO pledges (user_id, project_id) VALUES (10, 1);
-INSERT INTO pledges (user_id, project_id) VALUES (11, 1);
-INSERT INTO pledges (user_id, project_id) VALUES (12, 2);
-INSERT INTO pledges (user_id, project_id) VALUES (13, 6);
-INSERT INTO pledges (user_id, project_id) VALUES (13, 6);
-INSERT INTO pledges (user_id, project_id) VALUES (14, 3);
-INSERT INTO pledges (user_id, project_id) VALUES (15, 4);
-INSERT INTO pledges (user_id, project_id) VALUES (16, 5);
-INSERT INTO pledges (user_id, project_id) VALUES (17, 6);
-INSERT INTO pledges (user_id, project_id) VALUES (18, 7);
-INSERT INTO pledges (user_id, project_id) VALUES (19, 8);
-INSERT INTO pledges (user_id, project_id) VALUES (20, 9);
-INSERT INTO pledges (user_id, project_id) VALUES (20, 10);
-INSERT INTO pledges (user_id, project_id) VALUES (20, 1);
-INSERT INTO pledges (user_id, project_id) VALUES (9, 2);
-INSERT INTO pledges (user_id, project_id) VALUES (9, 6);
-INSERT INTO pledges (user_id, project_id) VALUES (8, 7);
-INSERT INTO pledges (user_id, project_id) VALUES (2, 8);
-INSERT INTO pledges (user_id, project_id) VALUES (3, 4);
-INSERT INTO pledges (user_id, project_id) VALUES (4, 5);
-INSERT INTO pledges (user_id, project_id) VALUES (5, 5);
+INSERT INTO pledges (user_id, project_id) VALUES 
+(1, 10),
+(2, 9),
+(3, 9),
+(4, 9),
+(5, 8),
+(6, 7),
+(6, 7),
+(7, 8),
+(8, 10),
+(10, 1),
+(11, 1),
+(12, 2),
+(13, 6),
+(13, 6),
+(14, 3),
+(15, 4),
+(16, 5),
+(17, 6),
+(18, 7),
+(19, 8),
+(20, 9),
+(20, 10),
+(20, 1),
+(9, 2),
+(9, 6),
+(8, 7),
+(2, 8),
+(3, 4),
+(4, 5),
+(5, 5);
