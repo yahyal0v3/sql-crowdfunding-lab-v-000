@@ -11,26 +11,10 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Slave Rebellion", "Film", 6900, "08/25/2017", "09/29/2018");
 
 INSERT INTO users (name, age) VALUES
-("Eric", 20),
-("Danny", 32),
-("Emily", 25),
-("Amy", 35),
-("Jessica", 40),
-("Andy", 33),
-("Erica", 21),
-("Liyla", 55),
-("James", 16),
-("Adam", 25),
-("Sheral", 17),
-("Daniela", 44),
-("James", 47),
-("Shelly", 36),
-("Kaylie", 22),
-("Kayla", 24),
-("Justin", 27),
-("Jada", 58),
-("Grace", 70),
-("Antonia", 30);
+("Eric", 20), ("Danny", 32), ("Emily", 25), ("Amy", 35), ("Jessica", 40),
+("Andy", 33), ("Erica", 21), ("Liyla", 55), ("James", 16), ("Adam", 25),
+("Sheral", 17), ("Daniela", 44), ("James", 47), ("Shelly", 36), ("Kaylie", 22),
+("Kayla", 24), ("Justin", 27), ("Jada", 58), ("Grace", 70), ("Antonia", 30);
 
 INSERT INTO pledges (user_id, project_id) VALUES
 (1, 10),
