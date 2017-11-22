@@ -1,13 +1,14 @@
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Instyler", "Beauty", 1000, "01/06/2017", "05/07/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Say Yes", "Art", 35000, "03/18/2017", "03/20/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Backpacker", "Fashion", 5500, "11/05/2017", "12/07/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Glowing Galaxies", "Art", 800, "06/21/2017", "05/30/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Type 2", "Games", 7300, "07/18/2017", "11/30/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Aquarius", "Design", 6000, "02/16/2017", "03/22/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Scriber", "Craft", 500, "05/30/2017", "05/20,2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Fallen Fruit", "Games", 22000, "04/10/2017", "05/15,2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Spolia Tarot", "Games", 2300, "07/18/2017", "07/25/2018");
-INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES ("Slave Rebellion", "Film", 6900, "08/25/2017", "09/29/2018");
+INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUES 
+("Instyler", "Beauty", 1000, "01/06/2017", "05/07/2018"),
+("Say Yes", "Art", 35000, "03/18/2017", "03/20/2018"),
+("Backpacker", "Fashion", 5500, "11/05/2017", "12/07/2018"),
+("Glowing Galaxies", "Art", 800, "06/21/2017", "05/30/2018"),
+("Type 2", "Games", 7300, "07/18/2017", "11/30/2018"),
+("Aquarius", "Design", 6000, "02/16/2017", "03/22/2018"),
+("Scriber", "Craft", 500, "05/30/2017", "05/20,2018"),
+("Fallen Fruit", "Games", 22000, "04/10/2017", "05/15,2018"),
+("Spolia Tarot", "Games", 2300, "07/18/2017", "07/25/2018"),
+("Slave Rebellion", "Film", 6900, "08/25/2017", "09/29/2018");
 
 INSERT INTO users (name, age) VALUES ("Eric", 20);
 INSERT INTO users (name, age) VALUES ("Danny", 32);
